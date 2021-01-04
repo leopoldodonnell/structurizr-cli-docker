@@ -33,4 +33,4 @@ jobs:
         push: true
         build-args: |
           CLI_VERSION=${{ env.CLI_VERSION }}
-        tags: ${{ env.REGISTRY }}/structurizr-cli:latest
+        tags: ${{ env.REGISTRY }}/structurizr-cli:${{ env.CLI_VERSION }}

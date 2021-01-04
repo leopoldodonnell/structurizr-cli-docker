@@ -1,4 +1,4 @@
 #!/bin/sh -f
 REGISTRY=leopoldodonnell
-TAG=latest
+TAG=v1.6.0
 docker run --rm -v ${PWD}:/workdir ${REGISTRY}/structurizr-cli:${TAG} $@
