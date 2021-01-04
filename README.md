@@ -1,4 +1,3 @@
-![example workflow name](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
 ![CI to Docker hub](https://github.com/leopoldodonnell/structurizr-cli-docker/workflows/CI%20to%20Docker%20hub/badge.svg)
 # structurizr-cli-docker
 Builds a Docker container version of the structurizr cli from the github://structurizr/cli repository
