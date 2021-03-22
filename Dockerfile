@@ -26,5 +26,4 @@ COPY --from=build /cli/build/libs/structurizr-cli-${CLI_VERION}.jar /cli/lib/str
 RUN mkdir -p /workdir
 WORKDIR /workdir
 
-ENTRYPOINT java -jar /structurizr-cli-${CLI_VERION}.jar
-
+ENTRYPOINT ["sh", "-c", "exec java -jar /structurizr-cli-${CLI_VERION}.jar \"$0\" \"$@\""]
